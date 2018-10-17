@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+
+/* 轮播 */
+.SwiperIndex{
+  height: 240px;
+}
+.swiper-image{
+	width: 100%;
+	height: 240px;
+}
+
+.banner image{
+  width: 100%;
+}
+
+
+/* 菜单 */
+.menu_box{
+  display: flex;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.menu_box .item{
+  flex: 1;
+  max-width: 25%;
+  text-align: center;
+  font-size: 14px;
+  overflow: hidden;
+}
+.menu_box .item .fang{
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #FA4660;
+  font-size: 14px;
+  line-height: 50px;
+  margin-bottom: 8px;
+  border: 1px solid #FA4660;
+}
+/* .menu_box .item:nth-of-type(1) .fang{
+  background: #FD2145;
+}
+.menu_box .item:nth-of-type(2) .fang{
+  background: #F3AE2C;
+}
+.menu_box .item:nth-of-type(3) .fang{
+  background: #FC5872;
+}
+.menu_box .item:nth-of-type(4) .fang{
+  background: #0AB1FF;
+} */
+
+
+.menu_box .item .iconfont{
+  font-size: 26px;
+}
+
+.index_video_title{
+  text-align: center;
+  font-size: 26px;
+  color: #FA4660;
+}
+.index_video_desc{
+  margin-top: 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,36 @@
+<template name='k_case'>
+<!-- 
+	调用
+<import src='../templates/case/case.wxml' />
+<template is='k_case' data="{{case_list:case_list,title:'公司案例'}}"/> -->
+
+	<view class='case_list'>
+
+		<view class="zan-cell k_more">
+
+		  <view 
+		  	class="zan-cell__icon zan-icon zan-icon-pending-orders" 
+		  	style="font-size:18px;font-weidth:900;margin-right:8px;"
+		  >		  	
+		  </view>
+
+		  <!-- 该{title}由父组件传递 -->
+		  <!-- <view class="zan-cell__bd">公司案例</view> -->
+		  <view class="zan-cell__bd">{{title}}</view>
+		  <!-- <view class="zan-cell__ft">更多</view> -->
+		</view>
+
+		<view class='case_wrapper product_show'>
+			<view 
+	        class='product_item' 
+	        wx:for="{{case_list}}" 
+	        wx:key="item.id"
+	        data-id='{{item.id}}'
+	        bindtap='case_list_click'
+	      >
+	        <image src='{{item.img}}' class='item_img'/>
+	        <view class='item_title'>{{item.title}}</view>
+	      </view>
+		</view>
+	</view>
+</template>

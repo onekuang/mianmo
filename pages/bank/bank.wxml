@@ -1,0 +1,25 @@
+<!--pages/bank/bank.wxml-->
+<view class="container">
+    <view class="address-list">
+        <view class="a-address" wx:for-items="{{bankList}}" wx:key="{{index}}">
+             <view class="left-text" data-id="{{item.ID}}">
+                 <view class="name-tel">
+                    卡号:  {{item.CARNUMBER}}
+                 </view>
+                 <view class="address-box">
+                    开户银行：{{item.BANK}}
+                 </view>   
+                 <view class="address-box">
+                    持 卡 人 ：{{item.USERNAME}}
+                 </view>   
+             </view>   
+             <view class="right-edit">
+              <i class="iconfont icon-delete"  bindtap="editAddess" data-id="{{item.ID}}"></i>
+             </view> 
+        </view>
+    </view>
+    <view class="bottom-box">
+        <view class="add-btn" bindtap="addAddess">新增银行卡</view>
+    </view>
+
+</view>

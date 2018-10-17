@@ -1,0 +1,37 @@
+<!--pages/tixianlist/tixianlist.wxml-->
+<view class="page" style='background:#f5f5f5;min-height:667px;'>
+    <view class="page__bd">
+        <view class="weui-form-preview" wx:for-items="{{lists}}" wx:key="{{index}}">
+            <view class="weui-form-preview__hd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">提现金额</view>
+                    <view class="weui-form-preview__value_in-hd" style='color:red;'>¥{{item.meney}}</view>
+                </view>
+            </view>
+            <view class="weui-form-preview__bd">
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">实际到账金额</view>
+                    <view class="weui-form-preview__value">¥{{item.theAccount}}</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">审核状态</view>
+                    <view class="weui-form-preview__value">{{item.checkFlag}}</view>
+                </view>
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">到账卡号</view>
+                    <view class="weui-form-preview__value">{{item.catnumber}}</view>
+                </view>
+                
+                <view class="weui-form-preview__item">
+                    <view class="weui-form-preview__label">创建时间</view>
+                    <view class="weui-form-preview__value">{{item.createDate}}</view>
+                </view>
+            </view>
+        </view>        
+    </view>
+    <view class="page__bd" wx:if="{{lists.length == 0}}">
+      <view class="weui-loadmore weui-loadmore_line" style='background-color:transparent;'>
+        <view class="weui-loadmore__tips weui-loadmore__tips_in-line" style='background-color:transparent;'>暂无数据</view>
+      </view>
+    </view>
+</view>

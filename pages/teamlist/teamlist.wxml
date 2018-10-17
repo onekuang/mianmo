@@ -1,0 +1,18 @@
+<!--pages/teamlist/teamlist.wxml -->
+<view class='page'>
+  <view class="weui-cells weui-cells_after-title" wx:if="{{lists}}">
+      <view class="weui-cell" 
+        wx:for-items = "{{lists}}" 
+        wx:key="{{index}}"
+        data-id='{{item.openId}}' bindtap='gotodetail'
+      >
+          <view class="weui-badge" style="margin-left: 5px;">直推</view>
+          <!-- <view class="weui-badge" style="margin-left: 5px;" wx:if="{{item.state == 0}}">间推</view> -->
+          <view class="weui-cell__bd" style="font-size:12px;height:15px;overflow:hidden;">　{{item.name}}</view>
+          <view class="weui-cell__ft" style="font-size:12px;height:15px;">{{item.mobile}}</view>
+      </view>                                  
+  </view>
+  <view class="weui-loadmore weui-loadmore_line" wx:if="{{lists.length==0}}">
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">暂无数据</view>
+  </view>
+</view>

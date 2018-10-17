@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<view>  
+  <!-- 轮播 -->
+<view class='banner'>
+  <swiper indicator-dots='{{true}}'
+    autoplay="true" interval="5000" duration="1000" class='SwiperIndex'>
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}" class="swiper-image">
+      <swiper-item >
+        <!-- <image src="{{imgurl}}{{item. url}}" class="slide-image"  bindtap='swiper_goto' data-id='{{item.goodsId}}'/> -->
+        <image src="{{imgurl}}{{item. url}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+
+
+  <view class='menu_box'>
+    <view class='item'>
+      <navigator url="/pages/list/list" open-type="switchTab">
+      <view class='yuan'>
+        <view class='fang'> <i class="iconfont icon-chanpin1"></i></view>
+        产品中心
+      </view>
+      </navigator>
+    </view>
+    <view class='item'>
+    <navigator url="/pages/fenxiaomoshi/fenxiaomoshi">
+      <view class='yuan'>
+        <view class='fang'> <i class="iconfont icon-jinbi"></i></view>
+        分销模式
+      </view>
+      </navigator>
+    </view>
+    <view class='item'>
+      <navigator url="/pages/fenxiaotext/fenxiaotext">
+      <view class='yuan'>
+        <view class='fang'> <i class="iconfont icon-tuiguangzhuanqianxian"></i></view>
+        推广计划
+      </view>
+      </navigator>
+    </view>
+    <view class='item' style='position: relative;'>
+    <button open-type="share" style="opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;"></button>
+        <view class='yuan'>
+          <view class='fang'> <i class="iconfont icon-company"></i></view>
+          分享赚钱
+        </view>
+    </view>
+  </view>
+
+    <!-- <image src='../../image/index1.jpg' style='width:100%;'></image> -->
+
+    <!-- <view class='index_video_title'>公司宣传视频</view>
+    <view class='index_video_desc'>THE COMPANY PROMOTED VIEDEO</view> -->
+
+    <video src='https://bjm.smilehehe.com/uploadFiles/video/demo.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin.jpg"
+    style='width:100%;' 
+    ></video>
+    <video src='https://bjm.smilehehe.com/uploadFiles/video/demo1.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin.jpg"
+    style='width:100%;' 
+    ></video>
+    <!-- <video src='https://bjm.smilehehe.com/uploadFiles/video/demo2.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin.jpg"
+    style='width:100%;' 
+    ></video> -->
+    
+</view>

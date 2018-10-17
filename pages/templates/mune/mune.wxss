@@ -1,0 +1,38 @@
+@import '../../../utils/fonts/iconfont.wxss';
+@import '../../../ui/zan.wxss';
+/* 菜单 */
+.mune_wrapper{
+	background: #fff;
+	padding: 8px;
+}
+.mune_box{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 6px;
+}
+.mune_box .mune_box_item{
+	flex: 0 0 33%;
+	text-align: center;
+	/*margin-bottom: 15px;*/
+	margin:12px 0;
+}
+.mune_item_icon{
+	display: inline-block;
+	background: #f5f5f5;
+	width: 64px;
+	height: 64px;
+	line-height: 64px;
+	border-radius: 50%;
+	color: #fff;
+}
+.mune_item_icon .iconfont{
+	font-size: 64rpx;
+}
+.mune_box .mune_item_title{
+	font-size: 24rpx;
+	display: block;
+	color: #333;
+	margin-top: 4px;
+}

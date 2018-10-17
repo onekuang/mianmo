@@ -1,0 +1,9 @@
+.page{
+	padding: 0 8px;
+}
+.weui-article__h1{
+  font-weight: 600;
+}
+.weui-article__p{
+  color: #333;
+}

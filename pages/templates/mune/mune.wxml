@@ -1,0 +1,32 @@
+<!-- <template name="mune"> -->
+<!-- 菜单模版 -->
+<!-- <import src="../templates/mune/mune.wxml"/>
+<template is='mune' data="{{mune_data: mune_data}}" /> -->
+
+<view>
+<view class='mune_wrapper'>
+	<view class="zan-cell k_more" style="border-bottom:1px solid #eee;">
+	  <view class="zan-cell__icon zan-icon zan-icon-gift" style="font-size:18px;font-weidth:900;margin-right:8px;"></view>
+	  <view class="zan-cell__bd">服务项目</view>
+	  <!-- <view class="zan-cell__ft">更多</view> -->
+	</view>
+
+
+	<view class="mune_box">
+
+	  <view class="mune_box_item"
+	  	wx:for="{{mune_data}}"
+	  	wx:key="item.id"
+	  	data-id="{{item.id}}"
+	  	data-url="{{item.url}}"
+	  	bindtap='mune_click'
+	  >
+	    <view class='mune_item_icon' style="background-color:{{item.bg_color}}">
+	    	<i class="iconfont icon-{{item.icon}}"></i>
+	    </view>
+	    <text class='mune_item_title'>{{item.title}}</text>
+	  </view>
+	</view>
+</view>
+</view>
+<!-- </template> -->

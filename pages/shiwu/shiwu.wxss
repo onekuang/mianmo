@@ -1,0 +1,31 @@
+/* pages/shiwu/shiwu.wxss */
+.jindu_box{
+  padding: 18px 8px;
+}
+.jindu_box .title{
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 14px;
+}
+.jindu_item{
+  display: flex;
+}
+.jindu_item .l_box{
+  flex: 1;
+}
+.jindu_item .r_box{
+  width: 80px;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #fff;
+  transform: translateY(-50%);
+  /* padding-left: 8px; */
+  text-align: center;  
+  border-radius: 8px;
+}
+.on{
+  background: #FA4660;
+}
+.off{
+  background: #eee;
+}

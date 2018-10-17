@@ -1,0 +1,13 @@
+<!--pages/od_change_site/od_change_site.wxml-->
+<view>
+    <view class="show-address" wx:for-items="{{sitedata}}" wx:key="{{index}}" bindtap='selsectsite' data-id="{{item.id}}">
+            <view class="name-tel">{{item.province}}{{item.city}}{{item.zone}}{{item.addressDetail}}</view>
+            <!-- <view class="name-tel">{{curAddressData.linkMan}}  {{curAddressData.mobile}}</view>   --> 
+            <view class="addr-text">{{item.userName}}{{item.mobile}}</view>
+            <i class='iconfont icon-roundcheckfill' style="" wx:if="{{item.id == siteid}}"></i>
+    </view>
+    <view class='btn_box' style='margin-top:24px;padding-bottom:12px;'>
+      <button class="weui-btn" type="warn" bindtap='changesite'>更改</button>
+    </view>
+
+</view>

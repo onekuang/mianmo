@@ -1,0 +1,70 @@
+<!-- 留言组件 -->
+<template name='leave'>
+<!-- 外部调用方法 -->
+<!-- <import src='../templates/leave/leave.wxml' /> -->
+<!-- <template is='leave' data="{{text_cursor:text_cursor}}"/> -->
+
+<view class='lave_box'>
+  
+	<view class="zan-cell k_more">
+	  <view class="zan-cell__icon zan-icon zan-icon-records" style="font-size:18px;font-weidth:900;margin-right:8px;"></view>
+	  <view class="zan-cell__bd">在线留言</view>
+	  <!-- <view class="zan-cell__ft">更多</view> -->
+	</view>
+
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="姓名" name='username'/>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="电话" name='phone'/>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea 
+                      class="weui-textarea" 
+                      name='mark'
+                      placeholder="备注" 
+                      style="height: 3.3em" 
+                      bindinput='text_change'
+                      adjust-position=true
+                    />
+                    <view class="weui-textarea-counter">{{text_cursor}}/200</view>
+                </view>
+            </view>
+        </view>
+
+        
+
+        <view class="weui-btn-area">
+            <button 
+              class="weui-btn " 
+              type="primary"
+              form-type='submit'
+              style="background-color:#50B3E4;"
+            >提交</button>
+        </view>
+  </form>
+</view>
+
+
+
+
+
+
+
+
+
+</template>  

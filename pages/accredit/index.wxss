@@ -1,0 +1,33 @@
+/* pages/accredit/index.wxss */
+.accredit_wrapper{
+  padding: 16rpx 12rpx;
+  padding-top: 30%;
+}
+.userinfo {
+  position: relative;
+  width: 750rpx;
+  height: 320rpx;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.userinfo-avatar {
+  overflow:hidden;
+  display: inline-block;
+  width: 160rpx;
+  height: 160rpx;
+  /* margin: 20rpx; */
+  /* margin-top: 50rpx; */
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+.userinfo text {
+  /* color: #000; */
+  font-size: 14px;
+  background-color: #c0c0c0;
+  border-radius:40%;
+}

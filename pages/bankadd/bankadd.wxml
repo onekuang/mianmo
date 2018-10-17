@@ -1,0 +1,41 @@
+<!--pages/bankadd/bankadd.wxml-->
+<view class="weui-cells__title">基础信息</view>
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <view class="weui-label">姓名：</view>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入姓名" bindinput='getname'/>
+      </view>
+    </view>    
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <view class="weui-label">手机号码</view>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入手机号码" type="number" maxlength="11" bindinput='getphone'/>
+      </view>
+    </view> 
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+          <view class="weui-label">银行卡号</view>
+      </view>
+      <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入银行卡号" type="number"  bindinput='getbanknum'/>
+      </view>
+    </view> 
+    <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_select">
+        <view class="weui-cell__bd">
+            <picker bindchange="bindAccountChange" value="{{accountIndex}}" range="{{accounts}}">
+                <view class="weui-select">{{accounts[accountIndex]}}</view>
+            </picker>
+        </view>
+    </view>
+</view>
+</view>
+
+<view class='btn_box' style='margin-top:24px;'>
+<button class="weui-btn" type="warn" bindtap='savebank'>保存</button>
+</view>

@@ -1,0 +1,140 @@
+{
+  "pages":[   
+    "pages/index/index",
+    "pages/teamlist/teamlist",
+    "pages/center/center", 
+    
+    
+    "pages/qiandao2/qiandao2",
+    
+    
+    
+    
+    "pages/example/example",
+    "pages/qrcode/qrcode",
+    "pages/zhuanzhang/zhuanzhang",
+    "pages/od_change_site/od_change_site", 
+    
+    
+    "pages/wuliu/index",
+    
+    "pages/shiwu/shiwu",
+    
+    
+    
+    
+    
+    
+    
+    "pages/notice/index",
+    "pages/fenxiaomoshi/fenxiaomoshi",
+    
+    "pages/fenxiao/index",
+    
+    
+    
+    
+    "pages/tixianlist/tixianlist",
+    "pages/order-list/index",
+    
+    "pages/chang_user_info/index",
+    
+    
+    
+    
+    
+    
+    
+    
+    "pages/order_pay/order_pay",
+    
+    
+    
+    "pages/address-add/index",
+    
+    "pages/select-address/index",
+    
+    
+    
+    "pages/shoppingCar/shoppingCar",
+    "pages/shopcart/shopcart",
+    
+   
+    "pages/accredit/index",
+    
+    
+    
+    "pages/bank/bank",
+    
+    "pages/tixian-success/tixian-success",
+    "pages/tixian/tixian",   
+    
+    "pages/bankadd/bankadd",
+    
+    
+    
+      
+      
+    
+      
+    "pages/fenxiaotext/fenxiaotext",
+    
+       
+    
+      
+    
+    "pages/text-detaile/index",   
+      
+    
+    
+    "pages/list/list",
+    
+    "pages/goodsdetaile/goodsdetaile",
+    "pages/order-details/index",
+    
+    
+   
+    
+    
+    "pages/article/article",    
+    
+    "pages/order_form/order_form"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fa4660",
+    "navigationBarTitleText": "伴君美",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#FB5C77",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "image/03.png",
+        "iconPath": "image/03s.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/04.png",
+        "iconPath": "image/04s.png",
+        "pagePath": "pages/list/list",
+        "text": "商品列表"
+      },
+      {
+        "selectedIconPath": "image/02.png",
+        "iconPath": "image/02s.png",
+        "pagePath": "pages/shoppingCar/shoppingCar",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "image/01.png",
+        "iconPath": "image/01s.png",
+        "pagePath": "pages/center/center",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

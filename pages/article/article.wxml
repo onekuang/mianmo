@@ -1,0 +1,155 @@
+<image src='https://bjm.smilehehe.com/uploadFiles/uploadImgs/about.jpg' style='min-height:4175px;width:100%;'></image>
+<view class="article" wx:if="{{false}}">
+    
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">关于我们</view>
+            <view class="weui-article__section">
+                <!-- <view class="weui-article__title">小标题</view> -->
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p" style="text-indent: 1em;">
+                        <text>\t\t亲爱的新老朋友大家下午好！欢迎大家来到聚力国际，一起探讨有关“美”的话题！自古以来，爱美之心，人皆有之。随着时代不断的发展和科技的进步，人们对于美的追求也发生了日新月异的变化。从开始的简单的涂抹，到后面的注射；从简单的纹绣，到后面的手术介入，无论怎样煞费苦心，都是为了给对方留下美好的印象，在社会的各个场合能更加自信！\n
+                        
+                        \t\t纵观近些年国内护肤品市场，国际国内各知名品牌轮番上演，但就在这群雄逐鹿的境况，最火的莫过于面膜了！\n
+                        \t\t御泥坊、佰草集、自然堂、美即、一叶子、韩后等品牌相继在国内面膜市场各领风骚；有文章报道，2017年，中国的面膜市场销售额突破500亿人民币，在2020年，有望突破1000亿大关！面对如此庞大的市场，同时也面对强烈的竞争，我们伴君美如何另辟蹊径，杀出中国面膜界的这匹“黑马”呢？\n
+                        首先我们看一组数据：\n\n
+                        \t\t在众多购买客户的采访调查中，其中有44%的消费者是因为品牌和价格；有11%的消费者关注的是外包装；还有9%左右的是因为其他因素，但有89%的购买者关注的是功效！
+接下来，我们就一起了解一下我们的面膜品牌“伴君美”：\n
+“伴君美”的由来：咱们生产企业“柏俐臣”是一家自己的上市集团公司，十几年来一直都在为各种品牌和微商代加工，现在咱们的“伴君美”面膜是结合了市场上最火爆的燕窝面膜、小分子肽面膜、壳聚糖面膜、美白面膜、除皱淡斑面膜等多种功效集合于一身而面世的“伴君美神奇面膜”！\n
+最重要的是伴君美面膜采用的面膜布为“人皮膜”，它的成分纤维高分子结构，可以牢固锁水，触感细腻，深度滋润，面膜布还有高效吸附重金属功效，可以倒一杯可乐、橙汁等饮料，将用完的面膜布放进杯中，能立马将饮料变成一杯白净的水！\n
+产品的效果和高性价比，将是我们“伴君美”品牌面膜制胜的法宝！下面，\n
+我们通过以下五个方面解读“伴君美”：\n
+                        </text>
+                    </view>
+                </view>
+
+            </view>
+
+            <view class="weui-article__h1">一流的产品一定要有一流的研发队伍</view>
+            <view class="weui-article__section">
+                <!-- <view class="weui-article__title">小标题</view> -->
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        \t\t伴君美生产企业柏俐臣拥有国际顶尖级技术研发团队，汇集医学、皮肤药理学、生物科技等多领域研发机构，同时和国内多所知名大学和法国仙婷创新实验室、日本生物技术中心有着长期的紧密合作，不断研发出优秀经典的产品。现已设立荷兰，日本，韩国，马来西亚等海外分公司实验室，保障企业生产工艺和原材料在国际上保持领先水平。
+                        </text>
+                    </view>
+                </view>
+                
+            </view>
+
+            <view class="weui-article__h1">一流的产品一定要有一流的生产设备</view>
+            <view class="weui-article__section">
+                <!-- <view class="weui-article__title">小标题</view> -->
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        \t\t生产中心已获得美国FDA及欧盟GMPC认证
+生产设备先进，在国际上一直保持领先水平。10万级无尘净化GMP车间，无菌全封闭，严格执行国际化标准化生产，确保每一件产品在安心和质量方面达到最高品质。
+                        </text>
+                    </view>
+                </view>
+                
+            </view>
+
+
+            <view class="weui-article__h1">一流的产品一定要有一流的产品配方</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title">壳聚糖：</view>
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        风靡欧美的医用修护成分，薄皮女生的福音，可以有效吸附、修护、舒缓、强健肌肤。
+                        </text>
+                    </view>
+                </view>
+
+                <view class="weui-article__title">小分子玻尿酸（透明质酸钠）</view>
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        天然的保湿因子，能够改善皮肤的生理条件，加强肌肤营养物质的供给，防止衰老和肌肤氧化，抚平皱纹。
+                        </text>
+                    </view>
+                </view>
+
+                <view class="weui-article__title">燕窝：</view>
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        补充肌底营养，增加肌肤含水量，深入肌底灌溉式补水，唤醒肌肤活力，形成水分保护膜
+伴君美面膜用人皮膜作为底膜，在对皮肤重金属吸附、补水保湿、美白祛皱、修复肌肤、收缩毛孔等功效方面效果更加明显。
+同时，伴君美独到的男女套装面膜，开启了男士面膜的先河；广大女士在敷面膜的时候，不要忘了给自己的另一半也敷上一片爱心面膜，和心爱的人一起享受美的过程！
+【伴君美 君美 我也美；让全天下的男人、女人一起美起来】
+这句广告语，在三个月内一定风靡大江南北，成为众多爱美人士一句口头禅！
+精美的包装，独特的理念，科学的配方，爱的文化，我们的伴君美面膜一定是爱美人士的不二之选！
+                        </text>
+                    </view>
+                </view>
+                
+            </view>
+
+
+
+            <view class="weui-article__h1">一流的产品还要有可行的行销方案</view>
+            <view class="weui-article__section">
+                <!-- <view class="weui-article__title">小标题</view> -->
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        伴君美的推广方案简单易复制，公司在保留微薄利润的同时，将更多的资金用在产品成本的注入和市场推广人员的奖励上面。
+一个299元的大礼包，有五盒小包装，每盒五片，共25片，是正常使用一个月的量，而且我们的面膜还有周一到周日的使用提醒，让爱美的您不要忘记每天的使用。
+我们消费大礼包，便成为公司一名消费商。我们分享一名消费商，便可获得70元的奖励，我们的朋友再分享出去的大礼包，我们还可以获得30元的奖励。
+当我们一次消费20个大礼包时，我们便成为公司市场推广的合伙人了，这个时候您便可以获得您团队推广的业绩1%的分红奖励。再去分享的合伙人同样可以拿自己团队销售额的1%，您同时可以获得推荐合伙人销售额的1%奖励。
+除此之外，当您是市场推广合伙人时，团队销售达到500个大礼包，还可以获得价值2万元的情侣钻戒一对；达到5000个大礼包时，可以获得价值23.9万元的卡地亚蓝气球手表一只；达到20000个大礼包时，可以获得价值50万元的奔驰GLA轿车一部；达到50000个大礼包时，可以获得价值100万元的保时捷卡宴轿车一部；达到200000个大礼包时，可以获得价值500万元豪华别墅一套；达到300000个大礼包时，可以获得现金奖励300万元！
+作为伴君美面膜的推广者，让我们获得美丽的同时，收获的财富，同时还有超值的车房奖励！
+做好伴君美，高品质生活伴您一生！
+                        </text>
+                    </view>
+                </view>
+                
+            </view>
+
+            <view class="weui-article__h1">一流的产品一定有博爱的企业文化</view>
+            <view class="weui-article__section">
+                <!-- <view class="weui-article__title">小标题</view> -->
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">什么是微站</view> -->
+                    <view class="weui-article__p">
+                        <text>    
+                        伴君美不但销售的是面膜，更是对全天下男人和女人美丽的呵护。
+我们销售的是爱，是责任，是担当，是为了整个社会和谐贡献自己一份绵薄力量。
+面膜  只选伴君美
+君美  我也美
+伴君美，让全天下的男人和女人一起美起来！
+一流的产品是有爱的产品，是有灵魂的产品，她会超越产品的范畴，赋予我们整个企业的精神和使命。她就像一个个天使，带着我们对所有人的爱飞的更高，走的更远！
+伴君美人秉承着企业诚信、凝聚、创新、共赢的核心价值观，开拓进取，奋勇向前，为打造打造备受尊重的家庭健康美丽全球品牌，成为最受人尊敬的国际化企业而努力奋斗！！
+                        </text>
+                    </view>
+                </view>
+                
+            </view>
+
+
+
+
+        </view>
+    </view>
+
+
+    <view class='footer'>
+        <view class="weui-footer">
+        <view class="weui-footer__text">Copyright © 2018-2020 君伴美</view>
+        </view>
+    </view>
+
+
+
+</view>

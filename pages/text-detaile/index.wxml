@@ -1,0 +1,27 @@
+<!--pages/text-detaile/index.wxml-->
+<view class="article">
+    <view class="page__hd">
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">{{detaile.TITLE}}</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title" style='color:#666;'>{{detaile.CREATEDATE}}</view>
+                <view class="weui-article__section">
+                    <view class="weui-article__p" style='padding-top:16px;'>
+                        <text>{{detaile.MSG}}</text>
+                    </view>
+                </view>
+
+            </view>
+
+
+
+        </view>
+    </view>
+
+
+
+
+
+</view>

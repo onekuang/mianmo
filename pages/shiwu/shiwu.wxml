@@ -1,0 +1,68 @@
+<!--pages/shiwu/shiwu.wxml-->
+<view>
+  <view class='shiwu_wrppaer'>
+
+    <view class='jindu_box'>
+      <view class='title'>累计销售500大礼包,奖励价值20,000情侣钻戒一对</view>
+      <view class='jindu_item'>
+        <view class='l_box'>
+          <van-progress pivot-text="{{num >= 500 ? '完成':num}}" color="#00B26A" percentage="{{num / 500 * 100 >= 500 ? 100:num / 500 * 100}}"/>
+        </view>
+        <view class='r_box on'>情侣钻戒一对</view>
+
+      </view>      
+    </view>
+    <view class='khr'></view>
+    <view class='jindu_box'>
+      <view class='title'>累计销售5000大礼包,奖励价值23.9万元卡地亚蓝气球手表一只</view>
+      <view class='jindu_item'>
+        <view class='l_box'>
+          <van-progress pivot-text="{{num >= 5000 ? '完成':num}}" color="#00B26A" percentage="{{num / 5000 * 100 >= 5000?100:num / 23900 * 100}}"/>
+        </view>
+        <view class='r_box on'>卡地亚手表</view>
+      </view>      
+    </view>
+    <view class='khr'></view>
+    <view class='jindu_box'>
+      <view class='title'>累计销售20000大礼包,奖励价值50万元奔驰GLC轿车一部</view>
+      <view class='jindu_item'>
+        <view class='l_box'>
+          <van-progress pivot-text="{{num >= 20000 ? '完成':num}}" color="#00B26A" percentage="{{num / 20000 * 100 >= 5000?100:num / 23900 * 100}}"/>
+        </view>
+        <view class='r_box on'>奔驰GLC轿车</view>
+      </view>      
+    </view>
+    <view class='khr'></view>
+    <view class='jindu_box'>
+      <view class='title'>累计销售50000大礼包,奖励价值100万元保时捷卡宴一部</view>
+      <view class='jindu_item'>
+        <view class='l_box'>
+          <van-progress pivot-text="{{num >= 50000 ? '完成':num}}" color="#00B26A" percentage="{{num / 50000 * 100>= 50000?100:num / 50000 * 100}}"/>
+        </view>
+        <view class='r_box on'>保时捷卡宴</view>
+      </view>      
+    </view>
+    <view class='khr'></view>
+    <view class='jindu_box'>
+      <view class='title'>累计销售20万个大礼包,奖励价值500万元豪华别墅一套</view>
+      <view class='jindu_item'>
+        <view class='l_box'>
+          <van-progress pivot-text="{{num >= 200000 ? '完成':num}}" color="#00B26A" percentage="{{num / 200000 * 100 >= 200000?100:num / 200000 * 100}}"/>
+        </view>
+        <view class='r_box on'>豪华别墅一套</view>
+      </view>      
+    </view>
+    <view class='khr'></view>
+    <view class='jindu_box'>
+      <view class='title'>累计销售30万个大礼包奖励300万现金</view>
+      <view class='jindu_item'>
+        <view class='l_box'>
+          <van-progress pivot-text="{{num >= 300000 ? '完成':num}}" color="#00B26A" percentage="{{num / 300000 * 100 >= 300000?100:num / 300000 * 100}}"/>
+        </view>
+        <view class='r_box on'>300万现金</view>
+      </view>      
+    </view>
+    <view class='khr'></view>
+    
+  </view>
+</view>

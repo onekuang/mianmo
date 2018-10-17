@@ -1,0 +1,19 @@
+.lave_box{
+	background: #fff;
+	margin-top: 8px;
+	padding: 8px;
+	padding-bottom: 16px;
+}
+.lave_box .weui-cells{
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.lave_box .weui-cells{
+  border: 1rpx solid #eee;
+  border-radius: 4px;
+}
+
+.lave_box .weui-cell_input{
+  border: 1rpx solid #eee;
+  border-radius: 4px;
+}

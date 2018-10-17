@@ -1,0 +1,4 @@
+<!--pages/fenxiaomoshi/fenxiaomoshi.wxml-->
+<view>
+  <image src='https://bjm.smilehehe.com/uploadFiles/uploadImgs/baokuan.jpg' style='width:100%;min-height:674px;'></image>
+</view>

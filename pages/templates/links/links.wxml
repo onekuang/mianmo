@@ -1,0 +1,25 @@
+<template name='links'>
+<view class='index_link'>
+
+	<view class="zan-cell k_more">
+	  <view class="zan-cell__icon zan-icon zan-icon-like-o" style="font-size:18px;font-weidth:900;margin-right:8px;"></view>
+	  <view class="zan-cell__bd">{{title}}</view>
+	  <!-- <view class="zan-cell__ft">更多</view> -->
+	</view>
+
+
+	<view class='link_wrapper'>
+		<view class="zan-row">
+
+		  <view 
+		  	class="zan-col zan-col-8  link_item" 
+		  	wx:for='{{links_data}}'
+		  	wx:key='item.id'
+		  >
+		    <image src='{{item.img}}' class='item_img'/>
+		  </view>
+
+		</view>
+	</view>
+</view>
+</template>

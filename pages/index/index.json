@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "伴君美",
+  "usingComponents": {
+    "van-notice-bar": "/vant/dist/notice-bar/index"
+  }
+}

@@ -1,0 +1,17 @@
+<!--pages/notice/index.wxml -->
+<view class="weui-panel weui-panel_access" style='background:#f5f5f5;min-height:667px;'>
+
+    <view class="weui-panel" wx:for-items="{{notice}}" wx:key="{{index}}">
+        <view class="weui-panel__bd">
+            <navigator url="{{'../text-detaile/index?id=' + item.ID}}" class="weui-media-box weui-media-box_text">
+                <view class="weui-media-box__title weui-media-box__title_in-text">{{item.TITLE}}</view>
+                <view class="weui-media-box__desc">{{item.MSG}}</view>
+                <view class="weui-media-box__info">
+                    <view class="weui-media-box__info__meta">{{item.CREATEDATE}}</view>
+                </view>
+            </navigator>
+        </view>            
+    </view>
+
+    
+</view>

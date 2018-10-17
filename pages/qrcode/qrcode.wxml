@@ -1,0 +1,6 @@
+<!--pages/qrcode/qrcode.wxml-->
+<!-- <text>pages/qrcode/qrcode.wxml</text> -->
+<view class='page'>
+  <image src="{{imgurl}}{{qrimg}}" class='qrcode'></image>
+  <image src='http://bjm.smilehehe.com/uploadFiles/uploadImgs/haibao.jpg' class='img' mode="widthFix"></image>
+ </view>
