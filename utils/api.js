@@ -1,7 +1,7 @@
 // var baseURL = 'http://192.168.1.2:8280';
 // var baseURL = 'http://192.168.1.7:8080';
-var baseURL = 'http://192.168.4.115:8280';
-// var baseURL = 'http://192.168.4.118:8180/bjm-xcx/';
+// var baseURL = 'http://192.168.4.115:8280';
+var baseURL = 'http://192.168.4.118:8180/bjm-xcx/';
 // var baseURL = 'https://bjm.smilehehe.com';
 
 var data = {
@@ -100,6 +100,9 @@ var data = {
 
   // 获取团队无线级详情
   team_list: "/wechatchildrenlist",
+
+  // 到期警告
+  infodange: "/wechatpay_v2_hint"
 }
 
 for (var i in data) {

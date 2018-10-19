@@ -63,10 +63,11 @@ Page({
           imgUrls:res.data.result
         })
       },
-      fail: function(res) {},
-      complete: function(res) {},
-    })    
-    
+      fail: function(res) {
+        console.log(res)
+      },
+      complete: function(res) {}
+    });  
   },
   swiper_goto: function(e) {
     let id = e.target.dataset.id

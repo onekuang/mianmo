@@ -1,6 +1,7 @@
 {
   "pages":[   
-    "pages/index/index",
+    
+    "pages/index/index",    
     "pages/teamlist/teamlist",
     "pages/center/center", 
     

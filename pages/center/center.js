@@ -140,7 +140,7 @@ Page({
         }else{
           wx: wx.showModal({
             title: '提示',
-            content: "网络有误,请稍后再试",
+            content: res.data.msg,
             showCancel: false,
           })
         }

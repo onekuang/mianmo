@@ -25,17 +25,25 @@ Page({
       }
     });
 
-    // wx:wx.request({
-    //   url: api.data.fenxiao_center,
-    //   data: {
-    //     openId: app.globalData.openid
-    //   },
-    //   success: function(res) {
-    //     console.log(res.data)
-    //   },
-    //   fail: function(res) {},
-    //   complete: function(res) {},
-    // })
+    wx: wx.request({
+      url: api.data.infodange,
+      data: {
+        openId: app.globalData.openid,
+      },
+      success: function (res) {
+        console.log(res.data)
+        if (res.data.state == 200) {
+        }else{
+          wx: wx.showModal({
+            title: '提示',
+            content: res.data.msg,
+            showCancel: false,
+          })
+        }
+      },
+      fail: function (res) { },
+      complete: function (res) { },
+    })    
   },
   tabClick: function (e) {
     this.setData({
