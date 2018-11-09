@@ -103,9 +103,9 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fa4660",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "伴君美",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle":"black"
   },
   "tabBar": {
     "color": "#a9b7b7",
@@ -123,12 +123,6 @@
         "iconPath": "image/04s.png",
         "pagePath": "pages/list/list",
         "text": "商品列表"
-      },
-      {
-        "selectedIconPath": "image/02.png",
-        "iconPath": "image/02s.png",
-        "pagePath": "pages/shoppingCar/shoppingCar",
-        "text": "购物车"
       },
       {
         "selectedIconPath": "image/01.png",

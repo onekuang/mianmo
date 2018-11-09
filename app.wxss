@@ -2,7 +2,8 @@
 @import "./ui/zan.wxss";
 @import "./ui/weui.wxss";
 @import "./utils/fonts/iconfont.wxss";
-
+/* 个人信息box */
+@import "./pages/templates/userinfobox/userinfobox.wxss";
 .container {
   display: flex;
   flex-direction: column;
@@ -23,4 +24,9 @@
 }
 .btn_box{
   padding: 6px 12px;
+}
+.btn_bg{
+  /* background: linear-gradient(#FC9A01, rgb(255, 161, 113)); */
+  background: linear-gradient(#f5f5f5, #eee);
+  color: #666;
 }

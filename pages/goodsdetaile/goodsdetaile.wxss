@@ -223,11 +223,13 @@ swiper-item image {
 .footer-box .now-buy{
   text-align: center;
   height: 100%;
-  width: 250rpx;
+  /* width: 250rpx; */
+  width: 70%;
   line-height: 100rpx;
   background-color: #e64340;
   color:#fff;
   font-size: 34rpx;
+  float: right;
 }
 .show-popup{
   position: fixed;

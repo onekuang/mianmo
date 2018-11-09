@@ -1,14 +1,12 @@
-// var baseURL = 'http://192.168.1.2:8280';
-// var baseURL = 'http://192.168.1.7:8080';
 // var baseURL = 'http://192.168.4.115:8280';
-var baseURL = 'http://192.168.4.118:8180/bjm-xcx/';
-// var baseURL = 'https://bjm.smilehehe.com';
+// var baseURL = 'http://192.168.4.118:8180/bjm-xcx/';
+var baseURL = 'https://bjm.smilehehe.com';
 
 var data = {
   checkopenid: '/wechatexistsopenid', //
 
-  // 首页
-  index_swiper:'/wechatpicenterindexlist', // 首页轮播图
+  // 首页.///
+  index_swiper:'/wechatpicenterindexlist', // 首页轮播图 
   send_userinfo: "/wechatauthorization", // 发送授权信息和code
 	
   goods_list: '/wechatgoodsindex',  // 商品列表	

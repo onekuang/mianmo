@@ -108,6 +108,12 @@ Page({
           wx.hideLoading()
         }
       })
+    }else{
+      wx:wx.showModal({
+        title: '提示',
+        content: '您的当前网络较慢,请稍后再试',
+        showCancel: false,
+      })
     }
   },
 })

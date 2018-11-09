@@ -19,7 +19,10 @@
     <view class='item'>
       <navigator url="/pages/list/list" open-type="switchTab">
       <view class='yuan'>
-        <view class='fang'> <i class="iconfont icon-chanpin1"></i></view>
+        <view class='fang'> 
+          <!-- <i class="iconfont icon-chanpin1"></i> -->
+          <image src='../../image/tab01.png' style='width:120rpx;height:120rpx;'></image>
+        </view>
         产品中心
       </view>
       </navigator>
@@ -27,7 +30,10 @@
     <view class='item'>
     <navigator url="/pages/fenxiaomoshi/fenxiaomoshi">
       <view class='yuan'>
-        <view class='fang'> <i class="iconfont icon-jinbi"></i></view>
+        <view class='fang'> 
+        <!-- <i class="iconfont icon-jinbi"></i> -->
+        <image src='../../image/tab02.png' style='width:120rpx;height:120rpx;'></image>
+        </view>
         分销模式
       </view>
       </navigator>
@@ -35,7 +41,10 @@
     <view class='item'>
       <navigator url="/pages/fenxiaotext/fenxiaotext">
       <view class='yuan'>
-        <view class='fang'> <i class="iconfont icon-tuiguangzhuanqianxian"></i></view>
+        <view class='fang'> 
+        <!-- <i class="iconfont icon-tuiguangzhuanqianxian"></i> -->
+        <image src='../../image/tab03.png' style='width:120rpx;height:120rpx;'></image>
+        </view>
         推广计划
       </view>
       </navigator>
@@ -43,8 +52,11 @@
     <view class='item' style='position: relative;'>
     <button open-type="share" style="opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;"></button>
         <view class='yuan'>
-          <view class='fang'> <i class="iconfont icon-company"></i></view>
-          分享赚钱
+          <view class='fang'> 
+          <!-- <i class="iconfont icon-company"></i> -->
+          <image src='../../image/tab04.png' style='width:120rpx;height:120rpx;'></image>
+          </view>
+          <view>分享赚钱</view>
         </view>
     </view>
   </view>
@@ -57,7 +69,7 @@
     <video src='https://bjm.smilehehe.com/uploadFiles/video/demo.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin.jpg"
     style='width:100%;' 
     ></video>
-    <video src='https://bjm.smilehehe.com/uploadFiles/video/demo1.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin.jpg"
+    <video src='https://bjm.smilehehe.com/uploadFiles/video/demo1.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin1.jpg"
     style='width:100%;' 
     ></video>
     <!-- <video src='https://bjm.smilehehe.com/uploadFiles/video/demo2.mp4' controls="true" poster="https://bjm.smilehehe.com/uploadFiles/uploadImgs/shipin.jpg"

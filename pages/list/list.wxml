@@ -4,12 +4,16 @@
     <view class="categroy-left">
         <!-- data-id 加a 主要定位滚动位置, 如果纯数字将会报错-->
         <view wx:for="{{category}}" 
-            wx:key="item.id" 
+            wx:key="index" 
             data-id="{{'a' + item.id}}" 
             data-index="{{index}}"
             bindtap="switchTab"
-            class="cate-list {{curIndex === index?'on':''}}">
+            class="cate-list {{curIndex === index?'on':''}}"            
+            hidden= "{{item.id == 'ad3363c59324477dacd184d48ec2f07a' && userstart < 1}}"
+        >
+          <block >
             {{item.name}}
+          </block>
         </view>
     </view>
 

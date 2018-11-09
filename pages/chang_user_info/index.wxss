@@ -51,9 +51,9 @@
   font-size: small;
 }
 .signIn{
-  background:#fff;
+  /* background:#fff; */
   border:none;
-  color:#fff;
+  /* color:#fff; */
 }
 .login_out{
   background:#fff;

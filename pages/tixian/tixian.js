@@ -61,7 +61,7 @@ Page({
       countryCodeIndex: e.detail.value
     })
   },
-  // 双向绑定银行列表的值
+  // 双向绑定银行列表的值 
   bindAccountChange: function (e) {
     this.setData({
       accountIndex: e.detail.value
@@ -82,9 +82,6 @@ Page({
   // 点击提现按钮
     openConfirm: function () {
       let that = this
-      console.log(that.data.bindphone)
-      console.log(that.data.money)
-      console.log(that.data.jiangli)
       let bank_item = that.data.bankList[that.data.accountIndex]
 
       let bank = bank_item
@@ -103,12 +100,19 @@ Page({
         })
         return
       }
+      if (that.data.money < 100) {
+        wx.showToast({
+          title: '金额最少为100',
+        })
+        return
+      }
       if (!/^[0-9]*$/.test(that.data.money) ) {
         wx.showToast({
           title: '金额只能是整数',
         })
         return
       }
+
       wx.showModal({
         title: '银行卡确认',
         content: bank.USERNAME + bank.CARNUMBER,

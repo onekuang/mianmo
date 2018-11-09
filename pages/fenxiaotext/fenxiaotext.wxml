@@ -9,7 +9,7 @@
                 <!-- <view class="weui-article__title" style='color:#666;'>{{time}}</view> -->
                 <view class="weui-article__section">
                     <view class="weui-article__p" style='padding-top:16px;'>
-                        <image src='http://bjm.smilehehe.com/uploadFiles/uploadImgs/tuiguang.jpg' style='width:100%;height:1676px;'></image>
+                        <image src='http://bjm.smilehehe.com/uploadFiles/uploadImgs/tuiguang.jpg' style='width:100%;height:3376px;'></image>
                     </view>
                 </view>
 

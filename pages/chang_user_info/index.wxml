@@ -65,7 +65,7 @@
     
 
     <view class='btn_box'>
-    <button loading='{{butn_show_loading}}' class='signIn' style='color:#fff;background:#FA4660;margin-top:26px;' bindtap='send_bindphone'>保存</button>
+    <button loading='{{butn_show_loading}}' class='signIn btn_bg' style='margin-top:26px;' bindtap='send_bindphone'>保存</button>
     </view>
   <!--   <button class='login_out' bindtap='loginOut'
      style='color:{{setting.platformSetting.defaultColor}};border:1px solid {{setting.platformSetting.defaultColor}}'>退出登录</button> -->

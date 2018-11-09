@@ -30,27 +30,34 @@
 }
 .menu_box .item .fang{
   margin: 0 auto;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  color: #FA4660;
-  font-size: 14px;
-  line-height: 50px;
-  margin-bottom: 8px;
-  border: 1px solid #FA4660;
+  /* height: 50px; */
+  /* width: 50px; */
+  /* border-radius: 50%; */
+  /* border-radius: 12px; */
+  /* color: #fff; */
+  text-align: center;
+  color: #888;
+  /* font-size: 24px; */
+  /* line-height: 40px; */
+  /* margin-bottom: 8px; */
+  /* border: 1px solid #666; */
+  /* background: linear-gradient( #55b4fe, #0f95ff); */
 }
-/* .menu_box .item:nth-of-type(1) .fang{
-  background: #FD2145;
+.menu_box .item .yuan{
+  color: #666;
+}
+.menu_box .item:nth-of-type(1) .fang{
+  color: #FD2145;
 }
 .menu_box .item:nth-of-type(2) .fang{
-  background: #F3AE2C;
+  color: #F3AE2C;
 }
 .menu_box .item:nth-of-type(3) .fang{
-  background: #FC5872;
+  color: #FC5872;
 }
 .menu_box .item:nth-of-type(4) .fang{
-  background: #0AB1FF;
-} */
+  color: #0AB1FF;
+}
 
 
 .menu_box .item .iconfont{

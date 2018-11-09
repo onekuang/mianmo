@@ -52,10 +52,12 @@ Page({
     category:[],
     curIndex: 0,
     isScroll: false,
-    toView: 'top'
+    toView: 'top',
+    userstart:0,
   },
   onLoad() {
     var that = this
+    
 
     // 接口地址
     let url = api.data.goods_list
@@ -69,6 +71,26 @@ Page({
         }
       }
     })
+
+    if (!app.globalData.openid) {
+      return
+    }
+    let url1 = api.data.fenxiao_center
+    wx.request({
+      url: url1,
+      data: {
+        openId: app.globalData.openid,
+      },
+      success: function (res) {
+        if (res.data.state == 200) {
+          that.setData({
+            userstart: res.data.permissions
+          })
+        }
+      }
+    })
+
+
   },
   onReady() {
   },

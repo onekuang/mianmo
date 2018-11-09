@@ -37,5 +37,5 @@
 </view>
 
 <view class='btn_box' style='margin-top:24px;'>
-<button class="weui-btn" type="warn" bindtap='savebank'>保存</button>
+<button class="weui-btn btn_bg"  bindtap='savebank'>保存</button>
 </view>

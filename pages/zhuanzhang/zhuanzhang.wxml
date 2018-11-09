@@ -2,63 +2,13 @@
 <!-- 转账 -->
 <view class="setting_page">
 	<view class="page__bd">
-
+      
 	    <view class="weui-cells weui-cells_after-title">
-	        <view class='user_info_box'>
-            <view class='shenfen'  data-url='../goodsdetaile/goodsdetaile?id=16' bindtap='goto'  wx:if="{{user_status == 0 }}">
-              <view>我的等级</view>
-              <view class='text'><i class="iconfont icon-crownfill"></i> 普通会员</view>
-              <view class='shengji'>身份升级</view>
-            </view>
-	        	<view class='shenfen'  data-url='../goodsdetaile/goodsdetaile?id=16' bindtap='goto'  wx:if="{{user_status == 1 }}">
-              <view>我的等级</view>
-              <view class='text'><i class="iconfont icon-crownfill"></i> 消费商</view>
-              <view class='shengji'>身份升级</view>
-            </view>
-            <view class='shenfen' wx:if="{{user_status == 2 }}">
-              <view>我的等级</view>
-              <view class='text'><i class="iconfont icon-crownfill"></i> 合伙人</view>
-              <!-- <view>合伙人</view> -->
-              <view class='shengji'>最高身份</view>
-            </view>
 
-            <view class='r_tixian'  data-url='../tixian/tixian' bindtap='goto'>
-              <!-- <view><i class="iconfont icon-leijishouru"></i> 快速提现</view> -->
-            
-              <view>可提现(元)</view>
-              <view><i class="iconfont icon-leijishouru"></i>　{{user_data.meney}}</view>
-              <view class='shengji'>快速提现</view>
-            </view>
-	        	
-            <view class="userinfo-avatar">
-              <open-data  type="userAvatarUrl"></open-data>
-            </view>
-
-            <view class='user_info_nickname'>
-              <open-data type="userNickName"></open-data>
-              <!-- <view style="font-size:12px;">我的推荐人:username</view> -->
-            </view>
-                
-            <view class='centen_jifen'>
-              <view class='centen_jifen_content'>
-                <text>销售奖励</text>
-                <text>{{user_data.meney}}元</text>
-              </view>
-              <view class='centen_jifen_content centen_jifen_content2'>
-                <text>累计提现</text>
-                <text>{{user_data.cumulative}}元</text>
-              </view>
-              <view class='centen_jifen_content centen_jifen_content2'>
-                <text>分红奖励</text>
-                <text>{{user_data.shareProfit}}元</text> 
-              </view>
-              <view class='centen_jifen_content'>
-                <text>待释放</text>
-                <text>{{user_data.partner}}元</text>
-              </view>              
-            </view>
-            
-	        </view>            
+      <!-- 用户信息卡片box -->
+          <import src='../templates/userinfobox/userinfobox.wxml' />
+          <template is='userinfobox' data="{{user_data:user_data, user_status:user_status}}" />
+                 
         <view class="weui-cells__title">选择奖励</view>
         <view class="weui-cells weui-cells_after-title">
             <radio-group bindchange="radioChange">
@@ -111,7 +61,7 @@
 
 
           <view class='btn_box' style='margin-top:24px;padding-bottom:24px;'>
-          <button class="weui-btn" type="warn" bindtap='openConfirm'>确认转账</button>
+          <button class="weui-btn btn_bg" bindtap='openConfirm'>确认转账</button>
           </view>
           
 

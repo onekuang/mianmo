@@ -151,12 +151,12 @@
             <button open-type="share" style="opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;"></button>
             <view style='position:absolute;bottom:10rpx; color:red;'> 分享赚钱 </view>
         </view>
-        <view class="shop-cart-btn" bindtap="goShopCar">
-            <view class="shop-num">({{shopNum}})</view>
-            <view style='position:absolute;bottom:10rpx;'> 购物车 </view>
-        </view>
+        <!-- <view class="shop-cart-btn" bindtap="goShopCar" hidden>
+            <view class="shop-num" hidden>({{shopNum}})</view>
+            <view style='position:absolute;bottom:10rpx;' hidden> 购物车 </view>
+        </view> -->
         
-        <view class="join-shop-cart" bindtap="toAddShopCar">加入购物车</view>
+        <view class="join-shop-cart" bindtap="toAddShopCar" hidden>加入购物车</view>
         <view class="now-buy" bindtap="tobuy">立即购买</view>
    </view>
     <view class="show-popup" hidden="{{hideShopPopup}}" >
